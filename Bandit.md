@@ -26,6 +26,22 @@ After successfully logging in we saw a '-' file and we are not able to cat it. A
 
 # LEVEL 2
 
-username: bandit2    password: ![image](https://github.com/user-attachments/assets/69d6bdcf-6d6e-4d19-bd7b-64855f2a36fe)
+username: bandit2    password:  MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+![image](https://github.com/user-attachments/assets/69d6bdcf-6d6e-4d19-bd7b-64855f2a36fe)
+
+We use the tab key for autocomplete coz of the spaces in the file name
+
+# LEVEL 3
+
+username: bandit3    password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+listing files in our current directory
+
+![image](https://github.com/user-attachments/assets/94ddee54-f457-4d94-9f53-0abe8be10aa2)
+
+we found a directory there so we navigated into it. We tried listing files there but it was like there was nothing, we moved on to check for hidden files
+
+![image](https://github.com/user-attachments/assets/fd89e9d2-a607-4aa2-97ec-f463393605d3)
 
 
