@@ -5,3 +5,6 @@ PS: As i solve the challenges, I add.
 #LEVEL 0
 
 For the challenge we will be logging into a server using ssh as given on [overthewire.org]
+
+![image](https://github.com/user-attachments/assets/7123ddaa-cde1-4035-81a9-d3004c44160f)
+
