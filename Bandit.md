@@ -67,3 +67,30 @@ I remembered they are all dash files so i used ./* instead of just * and boom!!!
 To view the file we use normal cat and then we get the password for the new level.
 
 ![image](https://github.com/user-attachments/assets/465be3da-99f8-4cf3-b30b-8703633452cd)
+
+# LEVEL 5
+
+username: bandit5     password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+After we successfully logged in, we navigated to inhere directory and saw many other directories. To save time and stregnth we use the find command.
+
+![image](https://github.com/user-attachments/assets/218f2d5b-caa6-4e72-9dca-1f9d927ab472)
+
+Using the find command with the parameters given already, the search became easy and we found our file...
+
+![image](https://github.com/user-attachments/assets/41c85cf3-ec23-4d04-bd0a-d19034c26083)
+
+# LEVEL 6
+
+username: bandit6   password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+After we logged in, we tried to list files and we could not find anything not even hidden files. We read the instructions again and they said it was somewhere on the server so we just went ahead to use the find command.
+
+![image](https://github.com/user-attachments/assets/25564ea1-81b0-404d-96df-16d3a81efd2d)
+
+We narrowed our search with that devnull thing and we got a place where the next password is. I copied the path and catted it out.
+
+![image](https://github.com/user-attachments/assets/a8d05a39-6f2c-4554-927b-d91c76ec59c0)
+
+
+
