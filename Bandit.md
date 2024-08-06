@@ -40,8 +40,30 @@ listing files in our current directory
 
 ![image](https://github.com/user-attachments/assets/94ddee54-f457-4d94-9f53-0abe8be10aa2)
 
-we found a directory there so we navigated into it. We tried listing files there but it was like there was nothing, we moved on to check for hidden files
+we found a directory there so we navigated into it. We tried listing files there but it was like there was nothing, we moved on to check for hidden files and as we will have it, we saw something trying to hide from us hehe.
 
 ![image](https://github.com/user-attachments/assets/fd89e9d2-a607-4aa2-97ec-f463393605d3)
 
+viewing the file
 
+![image](https://github.com/user-attachments/assets/ed7b0227-3602-4471-a20f-71028bb56c82)
+
+# LEVEL 4
+
+username: bandit4     password:  2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+listing files in our current working directory, we found a dir, inhere. We navigated into it and found a number of files. 
+
+![image](https://github.com/user-attachments/assets/f8b1faee-6fb5-4892-9cab-14b5bc36b600)
+
+For ease, we use the <file> command to view what type of files they are. I tried to use wildcard but it gave error. 
+
+![image](https://github.com/user-attachments/assets/c54a9c99-9543-4b45-8862-6491cd81ea37)
+
+I remembered they are all dash files so i used ./* instead of just * and boom!!!, it came to us.
+
+![image](https://github.com/user-attachments/assets/f73fe092-1154-4434-a502-d3310d4e9756)
+
+To view the file we use normal cat and then we get the password for the new level.
+
+![image](https://github.com/user-attachments/assets/465be3da-99f8-4cf3-b30b-8703633452cd)
