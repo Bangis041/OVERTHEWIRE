@@ -84,11 +84,11 @@ Using the find command with the parameters given already, the search became easy
 
 username: bandit6   password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
-After we logged in, we tried to list files and we could not find anything not even hidden files. We read the instructions again and they said it was somewhere on the server so we just went ahead to use the find command.
+After we logged in, we tried to list files and we could not find anything not even hidden files. We read the instructions again and they said it was somewhere on the server so we just went ahead to use the ```find``` command.
 
 ![image](https://github.com/user-attachments/assets/25564ea1-81b0-404d-96df-16d3a81efd2d)
 
-We narrowed our search with that devnull thing and we got a place where the next password is. I copied the path and catted it out.
+We narrowed our search with that ```2>/dev/null``` thing and we got a place where the next password is. I copied the path and catted it out.
 
 ![image](https://github.com/user-attachments/assets/a8d05a39-6f2c-4554-927b-d91c76ec59c0)
 
@@ -96,7 +96,7 @@ We narrowed our search with that devnull thing and we got a place where the next
 
 username: bandit7    password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
-We list the contents in our workinf directory and we see a .txt file, catting it will give one kain long novel so we just used grep to look for the word. Very easy for us to get the password.
+We list the contents in our working directory and we see a .txt file, catting it will give one kain long novel so we just used ```grep``` to look for the word. Very easy for us to get the password.
 
 ![image](https://github.com/user-attachments/assets/5fdf477d-742e-49ee-89ba-663f3b6c7477)
 
@@ -109,7 +109,7 @@ For this level, we were also told that the password is in a file called data.txt
 ![image](https://github.com/user-attachments/assets/fa6f3dbd-d33a-4258-a10e-c9f0c395de70)
 
 
-As you can see the end of the file are arranged. We will be piping the sort command with uniq and idicating we want just unique lines using the -u flag which tells it to show only unique lines
+As you can see the end of the file are arranged. We will be piping the sort command with ```uniq``` and indicating we want just unique lines using the -u flag which tells it to show only unique lines
 
 ![image](https://github.com/user-attachments/assets/44a1f3b4-e731-49b4-8d8a-b4a2c78d7965)
 
@@ -117,7 +117,7 @@ As you can see the end of the file are arranged. We will be piping the sort comm
 
 username: bandit9      password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
-We were given a file that is not an ASCII text. If we try to cat it, we get strings of data and we can't even grep. So we wil use strig command and then grep '========='
+We were given a file that is not an ASCII text. If we try to cat it, we get strings of data and we can't even grep. So we wil use strig command and then ```grep``` '========='
 
 ![image](https://github.com/user-attachments/assets/1e17faf7-6f37-4ff5-a19e-c8cf379f7701)
 
@@ -125,7 +125,7 @@ We were given a file that is not an ASCII text. If we try to cat it, we get stri
 
 username: bandit10    password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
-After successfully loggin in, we found a data.txt which was an ascii text. As we catted it, we saw it was an encoded message in base64. We can either use an online tool or we use the <base64> command. 
+After successfully loggin in, we found a data.txt which was an ascii text. As we catted it, we saw it was an encoded message in base64. We can either use an online tool or we use the ```base64``` command. 
 
 SYNTAC: ```base64 -d "name of file"```
 
