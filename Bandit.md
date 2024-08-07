@@ -10,7 +10,7 @@ username: bandit0    password: bandit0  host: bandit.labs.overthewire.org  port:
 
 ![image](https://github.com/user-attachments/assets/7123ddaa-cde1-4035-81a9-d3004c44160f)
 
-We use the command <ls> to view files and we found a readme file. Viewing it gave us our password. 
+We use the command ```ls``` to view files and we found a readme file. Viewing it gave us our password. 
 
 ![image](https://github.com/user-attachments/assets/0b39b94d-0e10-40b4-89e6-f5ac1eeb1eff)
 
@@ -20,7 +20,7 @@ Credentials...
 
 Username:bandit1  password:ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-After successfully logging in we saw a '-' file and we are not able to cat it. After little reasearch we found out that to cat a dah file you need to add './'
+After successfully logging in we saw a '-' file and we are not able to cat it. After little reasearch we found out that to cat a dash file you need to add './'
 
 ![image](https://github.com/user-attachments/assets/2608547d-4f84-47d1-816b-15594df1724d)
 
@@ -64,7 +64,7 @@ I remembered they are all dash files so i used ./* instead of just * and boom!!!
 
 ![image](https://github.com/user-attachments/assets/f73fe092-1154-4434-a502-d3310d4e9756)
 
-To view the file we use normal cat and then we get the password for the new level.
+To view the file we use normal ```cat``` and then we get the password for the new level.
 
 ![image](https://github.com/user-attachments/assets/465be3da-99f8-4cf3-b30b-8703633452cd)
 
@@ -72,11 +72,11 @@ To view the file we use normal cat and then we get the password for the new leve
 
 username: bandit5     password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
-After we successfully logged in, we navigated to inhere directory and saw many other directories. To save time and stregnth we use the find command.
+After we successfully logged in, we navigated to inhere directory and saw many other directories. To save time and stregnth we use the ```find``` command.
 
 ![image](https://github.com/user-attachments/assets/218f2d5b-caa6-4e72-9dca-1f9d927ab472)
 
-Using the find command with the parameters given already, the search became easy and we found our file...
+Using the ```find``` command with the parameters given already, the search became easy and we found our file...
 
 ![image](https://github.com/user-attachments/assets/41c85cf3-ec23-4d04-bd0a-d19034c26083)
 
@@ -149,6 +149,22 @@ And boom!, we have our password.
 # LEVEL 12
 
 username: bandit12 password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+We were given an instruction to follow here first,and we were also told the file we are dealing with is a hexdump data which was repeatedly compressed.
+
+![image](https://github.com/user-attachments/assets/21ffdc8b-4e8d-434f-9194-cf6d9ce10bb5)
+
+Following the instructions, we will create a dir in /tmp and copy the data there and then we start to decompress till we get our password.
+
+![image](https://github.com/user-attachments/assets/b938ec43-12bb-46b8-882b-89be624914fd)
+
+After moving, we use the ```xxd``` command with -r flag to revert the hexdump data alongside the name of the new file we want to save it in and then what type of file it is to know what tool to use to compress it.
+
+NB: NOW IS THE TIME TO MAKE ```man``` YOUR BESTFRIEND. 
+
+![image](https://github.com/user-attachments/assets/4a15c541-ad8c-4770-ab52-36e2ba9c5d13)
+
+
 
 
 
