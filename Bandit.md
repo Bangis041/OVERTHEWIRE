@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/20a50b58-ccb0-45b5-94d3-7bc71febeb72)This challenge is basically to test knowledge of linux commands. I will try as much as possible to make it short and understandable.
+This challenge is basically to test knowledge of linux commands. I will try as much as possible to make it short and understandable.
 
 PS: As i solve the challenges, I add.
 
@@ -127,7 +127,18 @@ username: bandit10    password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 After successfully loggin in, we found a data.txt which was an ascii text. As we catted it, we saw it was an encoded message in base64. We can either use an online tool or we use the ```base64``` command. 
 
-SYNTAC: ```base64 -d "name of file"```
+SYNTAX: ```base64 -d "name of file"```. The -d flag is to decode
+
+![image](https://github.com/user-attachments/assets/61802453-66d4-473b-9d9e-974c1fb67bbd)
+
+
+# LEVEL 11
+
+username: bandit11    password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+For this, we were also given a file that contained set of characters we can't pronounce. We realize it is also a cipher text and it was rotated 13 times. We can either do this using ```tr``` command or we use an online tool. I would have preferred not to use terminal but as per this game is supposed to help make us better and more familiar with linux commands, I won't be using the online tool. We can as well do it manually...that one will stress you small sha, just move each character 13 times. 
+
+![image](https://github.com/user-attachments/assets/5700e16e-c65c-4675-b71c-e4e90685707d) OR ![image](https://github.com/user-attachments/assets/5b3720ff-c3ad-4dc6-af38-88848687feff)
 
 
 
