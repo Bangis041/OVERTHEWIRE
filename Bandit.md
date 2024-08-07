@@ -100,6 +100,17 @@ We list the contents in our workinf directory and we see a .txt file, catting it
 
 ![image](https://github.com/user-attachments/assets/5fdf477d-742e-49ee-89ba-663f3b6c7477)
 
+# LEVEL 8
+
+username: bandit8     password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+For this level, we were also told that the password is in a file called data.txt. But in this case, almost each line is repeated as shown below using sort command:
+
+![image](https://github.com/user-attachments/assets/fa6f3dbd-d33a-4258-a10e-c9f0c395de70)
+
+
+As you can see the end of the file are arranged. We will be piping the sort command with uniq and idicating we want just unique lines using the -u flag which tells it to show only unique lines
+
 
 
 
