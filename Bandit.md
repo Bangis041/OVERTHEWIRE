@@ -1,4 +1,4 @@
-This challenge is basically to test knowledge of linux commands. I will try as much as possible to make it short and understandable.
+![image](https://github.com/user-attachments/assets/20a50b58-ccb0-45b5-94d3-7bc71febeb72)This challenge is basically to test knowledge of linux commands. I will try as much as possible to make it short and understandable.
 
 PS: As i solve the challenges, I add.
 
@@ -110,6 +110,26 @@ For this level, we were also told that the password is in a file called data.txt
 
 
 As you can see the end of the file are arranged. We will be piping the sort command with uniq and idicating we want just unique lines using the -u flag which tells it to show only unique lines
+
+![image](https://github.com/user-attachments/assets/44a1f3b4-e731-49b4-8d8a-b4a2c78d7965)
+
+# LEVEL 9
+
+username: bandit9      password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+We were given a file that is not an ASCII text. If we try to cat it, we get strings of data and we can't even grep. So we wil use strig command and then grep '========='
+
+![image](https://github.com/user-attachments/assets/1e17faf7-6f37-4ff5-a19e-c8cf379f7701)
+
+# LEVEL 10
+
+username: bandit10    password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+After successfully loggin in, we found a data.txt which was an ascii text. As we catted it, we saw it was an encoded message in base64. We can either use an online tool or we use the <base64> command. 
+
+SYNTAC: ```base64 -d "name of file"```
+
+
 
 
 
