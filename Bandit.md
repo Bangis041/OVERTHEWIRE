@@ -92,5 +92,15 @@ We narrowed our search with that devnull thing and we got a place where the next
 
 ![image](https://github.com/user-attachments/assets/a8d05a39-6f2c-4554-927b-d91c76ec59c0)
 
+# LEVEL 7
+
+username: bandit7    password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+We list the contents in our workinf directory and we see a .txt file, catting it will give one kain long novel so we just used grep to look for the word. Very easy for us to get the password.
+
+![image](https://github.com/user-attachments/assets/5fdf477d-742e-49ee-89ba-663f3b6c7477)
+
+
+
 
 
