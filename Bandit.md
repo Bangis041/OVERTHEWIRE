@@ -108,7 +108,6 @@ For this level, we were also told that the password is in a file called data.txt
 
 ![image](https://github.com/user-attachments/assets/fa6f3dbd-d33a-4258-a10e-c9f0c395de70)
 
-
 As you can see the end of the file are arranged. We will be piping the sort command with ```uniq``` and indicating we want just unique lines using the -u flag which tells it to show only unique lines
 
 ![image](https://github.com/user-attachments/assets/44a1f3b4-e731-49b4-8d8a-b4a2c78d7965)
@@ -130,7 +129,6 @@ After successfully loggin in, we found a data.txt which was an ascii text. As we
 SYNTAX: ```base64 -d "name of file"```. The -d flag is to decode
 
 ![image](https://github.com/user-attachments/assets/61802453-66d4-473b-9d9e-974c1fb67bbd)
-
 
 # LEVEL 11
 
@@ -174,7 +172,7 @@ After decompressing the first one, i got a bzip2 file, i used my manual page aga
 
 We keep repeating the process till we get a kind of file that is human readable. It will most likely be our password.
 
-
+![image](https://github.com/user-attachments/assets/e4e682ee-c7cc-4760-a32a-d7dc6ca0d1bc)
 
 
 
