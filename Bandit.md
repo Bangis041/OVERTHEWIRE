@@ -164,7 +164,15 @@ NB: NOW IS THE TIME TO MAKE ```man``` YOUR BESTFRIEND.
 
 ![image](https://github.com/user-attachments/assets/4a15c541-ad8c-4770-ab52-36e2ba9c5d13)
 
+From here, what we will keep doing after decompressing is to check the file type, change the file extension to whatever it shows as what type of file it is i.e this was showing gzip file so i renamed it to data.gz.
 
+![image](https://github.com/user-attachments/assets/a04b989b-9855-48bf-a1da-c4694a0c8606)
+
+After decompressing the first one, i got a bzip2 file, i used my manual page again after renaming and decompressed to get a gzip file again
+
+![image](https://github.com/user-attachments/assets/158c19d2-422f-4e27-bc1b-4fcf73888232)
+
+We keep repeating the process till we get a kind of file that is human readable. It will most likely be our password.
 
 
 
