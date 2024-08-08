@@ -174,6 +174,9 @@ We keep repeating the process till we get a kind of file that is human readable.
 
 ![image](https://github.com/user-attachments/assets/e4e682ee-c7cc-4760-a32a-d7dc6ca0d1bc)
 
+# LEVEL 13
+
+username: bandit13        password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
 
 
