@@ -174,9 +174,14 @@ We keep repeating the process till we get a kind of file that is human readable.
 
 ![image](https://github.com/user-attachments/assets/e4e682ee-c7cc-4760-a32a-d7dc6ca0d1bc)
 
+After several decompression and reversion we were able to get a human readable file and we saw that it was our password for the next level.
+
+![Screenshot from 2024-08-08 02-19-28](https://github.com/user-attachments/assets/06d47c29-c621-4f02-8056-98604166b552)
+
 # LEVEL 13
 
 username: bandit13        password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
 
 
 
