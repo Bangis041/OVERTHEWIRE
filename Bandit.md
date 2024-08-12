@@ -182,6 +182,15 @@ After several decompression and reversion we were able to get a human readable f
 
 username: bandit13        password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 
+The instruction here stated that the password can only be read by user14. We need to find a way to login as bandit 14. I checked for files in my directory and found a ssh key there. It can be used in place of a password, what you just need is the username
+
+![image](https://github.com/user-attachments/assets/f61e6033-2b98-4080-a96a-cac4088e9b09)
+
+I created a file on my host machine and saved the private key in it. 
+
+![image](https://github.com/user-attachments/assets/08c38448-2502-4754-82a5-ef612e94e5b9)
+
+I will proceed to login into user14 with the key i found. After trying, I got an error, apparently, i need to change the permission of the private key.
 
 
 
