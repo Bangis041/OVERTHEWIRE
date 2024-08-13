@@ -200,7 +200,7 @@ After changing it, we successfully logged in, now we need to navigate to the dir
 
 ![image](https://github.com/user-attachments/assets/0b0cbb2c-a94d-49de-a99b-d42f513e8871)
 
-# LEVEL 14      password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+# LEVEL 14    
 
 username: bandit14        password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
@@ -210,7 +210,8 @@ For this level, we will be able to get the password to the next level by submitt
 
 As you can see, both ways gave same password. We meauve
 
-# LEVEL 15       password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+# LEVEL 15       
+username: bandit15              password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 For this level, we will also be submitting the old password to get the password for the next level, this time they gave a different thing. 
 
