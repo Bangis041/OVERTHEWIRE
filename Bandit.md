@@ -178,9 +178,9 @@ After several decompression and reversion we were able to get a human readable f
 
 ![Screenshot from 2024-08-08 02-19-28](https://github.com/user-attachments/assets/06d47c29-c621-4f02-8056-98604166b552)
 
-# LEVEL 13
+# LEVEL 13 and 14
 
-username: bandit13        password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+username: bandit13     password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn 
 
 The instruction here stated that the password can only be read by user14. We need to find a way to login as bandit 14. I checked for files in my directory and found a ssh key there. It can be used in place of a password, what you just need is the username
 
@@ -191,6 +191,28 @@ I created a file on my host machine and saved the private key in it.
 ![image](https://github.com/user-attachments/assets/08c38448-2502-4754-82a5-ef612e94e5b9)
 
 I will proceed to login into user14 with the key i found. After trying, I got an error, apparently, i need to change the permission of the private key.
+
+syntax: chmod 600 <name of the privatekey>
+
+![image](https://github.com/user-attachments/assets/fabfb8ea-da77-40f8-9189-35ea848c138c)
+
+After changing it, we successfully logged in, now we need to navigate to the directory where the password for the level is stored. We get the password to bandit14 there.
+
+![image](https://github.com/user-attachments/assets/0b0cbb2c-a94d-49de-a99b-d42f513e8871)
+
+# LEVEL 14      password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+username: bandit14        password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+
+For this level, we will be able to get the password to the next level by submitting the password we retrieved in the last level to port 30000 on localhost. We can either use local host or use 127.0.0.1 for this, both works. 
+
+![image](https://github.com/user-attachments/assets/5b8b16c7-5264-42c2-bd2f-d2f5d81b91f8)
+
+As you can see, both ways gave same password. We meauve
+
+# LEVEL 15       password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+For this level, we will also be submitting the old password to get the password for the next level, this time they gave a different thing. 
 
 
 
