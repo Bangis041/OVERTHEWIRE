@@ -228,5 +228,10 @@ For this level, we need to know which and which ports are opened as they gave us
 
 ![image](https://github.com/user-attachments/assets/3ee896d9-40d4-48ea-b985-f35d2cd77e44)
 
-After running the scan, we were gicen a number of opened ports but we don't know what service we are running on so we add the -sV flag for it to give us that. Reason for this is so we can know theport that has a listener on it
+After running the scan, we were gicen a number of opened ports but we don't know what service we are running on so we add the -sV flag for it to give us that. Reason for this is so we can know theport that has a listener on it.
+
+![image](https://github.com/user-attachments/assets/f51e0991-2e08-4460-aa83-7a34386ae5a3)
+
+We have 5 ports running here, our best guess is 31790 so we will try to connect to that using openssl using the same format.
+
 
