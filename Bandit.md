@@ -211,11 +211,22 @@ For this level, we will be able to get the password to the next level by submitt
 As you can see, both ways gave same password. We meauve
 
 # LEVEL 15       
+
 username: bandit15              password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
-For this level, we will also be submitting the old password to get the password for the next level, this time they gave a different thing. 
+For this level, we will also be submitting the old password to get the password for the next level, this time they gave a different thing.
 
+![image](https://github.com/user-attachments/assets/8dabfa18-1a1f-4745-89c8-68d51f365c55)
 
+I just connected the localhost server woth the openssl clinet and pasted the password from this level since they told us it was using ssl encryption.
 
+# LEVEL 16 
 
+usernmae: bandit16              password: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+For this level, we need to know which and which ports are opened as they gave us a range so we will be using the ```nmap``` tool. It is known as network mappper, it can do alot of things such as network scanning, OS detection, host discovery etc. The syntax for this is ```nmap <ip address>```. Other flags can be attached depending on what you want to do with the scan. You can use the man page to read more.
+
+![image](https://github.com/user-attachments/assets/3ee896d9-40d4-48ea-b985-f35d2cd77e44)
+
+After running the scan, we were gicen a number of opened ports but we don't know what service we are running on so we add the -sV flag for it to give us that. Reason for this is so we can know theport that has a listener on it
 
