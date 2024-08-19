@@ -234,4 +234,8 @@ After running the scan, we were gicen a number of opened ports but we don't know
 
 We have 5 ports running here, our best guess is 31790 so we will try to connect to that using openssl using the same format.
 
+sy
+
+
+
 
