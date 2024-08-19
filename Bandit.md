@@ -234,7 +234,19 @@ After running the scan, we were gicen a number of opened ports but we don't know
 
 We have 5 ports running here, our best guess is 31790 so we will try to connect to that using openssl using the same format.
 
-sy
+For this we will be using the ```ncat``` command. The syntax is, ```ncat --ssl localhost 31970```
+
+After doing that, we paste the password for this level and then we get a RSA Key. The key can be used to login into the next level whic is bandit 17 just like we did in level 14.
+
+# LEVEL 17 
+
+username: bandit17          password: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+
+After successfully logging in, we wil find the password for this level wehre passwords are being stored. 
+
+![image](https://github.com/user-attachments/assets/4cf630e8-e7a6-4159-ac01-8c98d633883e)
+
+Now we were told there are two different passswords, I actually do not know what command to use. They gave a list of commands as usual and there was this one i was unfamiliar with. After a little research, It was what i eventually used. 
 
 
 
