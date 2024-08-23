@@ -248,6 +248,31 @@ After successfully logging in, we wil find the password for this level wehre pas
 
 Now we were told there are two different passswords, I actually do not know what command to use. They gave a list of commands as usual and there was this one i was unfamiliar with. After a little research, It was what i eventually used. 
 
+After listing the files in our current working directory, we see two different files, when i view both files, I see they look so familiar so i used the ```diff``` command to check for the difference. Our password should be in the ```password.new``` so we look out for that. 
+
+![image](https://github.com/user-attachments/assets/eae64af7-74f2-41ff-a6f7-2ef901bb7a7d)
+
+And boom! we found our password for the next level
+
+# LEVEL 18
+
+username: bandit18     password: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+Unfortunatly for us someone modified the .bashrc file to keep logging us out.
+
+![image](https://github.com/user-attachments/assets/a9cf92d5-ca25-48e3-8d72-cc96e8e808e8)
+
+After seeing i won't be able to login, i decided to run command with ssh instead of running it when i am logged in. Since we were told there was a readme file there, we ```ls``` to view the files and the we ```cat``` it after.
+
+![image](https://github.com/user-attachments/assets/2857c77c-60c4-40e7-96ae-d445b3b0ce06)
+
+We now have our password for the next level.
+
+# LEVEL 19
+
+username: bandit19        password: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+
 
 
 
