@@ -272,6 +272,22 @@ We now have our password for the next level.
 
 username: bandit19        password: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 
+After successfully logging in, i tried to check the password in the ususal place but it says permission denied. So i followed the instruction given and read a little about setuid. First we need to check which user can run the file that was given, for that we use ```ls -l``` 
+
+![image](https://github.com/user-attachments/assets/13260fea-0f53-48f9-90c2-e4e3b125f6a5)
+
+I then tried to execute the file to see the usage and it gave me one. I followed it and it became clearer, I could run this as bandit20so it was possible for me to check the password and not get a permission denied.
+
+![image](https://github.com/user-attachments/assets/8dff0a7d-6f66-496d-8310-1e26fe7e2f46)
+
+I did just that and it gave me this
+
+![image](https://github.com/user-attachments/assets/e2afd225-2edb-48da-b1ed-22435dcfcbf3)
+
+# LEVEL 20
+
+username: bandit20           password:  0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
 
 
 
