@@ -302,6 +302,13 @@ username: bandit21            password: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 Each time we keep trying it login, it sends us back and says ```System is going down. Unprivileged users are not permitted to log in anymore. For technical details, see pam_nologin(8).```
 
+We did something like this in a level before so we will be executing commands from ssh. 
+
+![image](https://github.com/user-attachments/assets/bab15e53-a07a-41bd-8be9-a9aeaa6ce560)
+
+
+
+
 
 
 
