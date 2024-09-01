@@ -276,7 +276,7 @@ After successfully logging in, i tried to check the password in the ususal place
 
 ![image](https://github.com/user-attachments/assets/13260fea-0f53-48f9-90c2-e4e3b125f6a5)
 
-I then tried to execute the file to see the usage and it gave me one. I followed it and it became clearer, I could run this as bandit20so it was possible for me to check the password and not get a permission denied.
+I then tried to execute the file to see the usage and it gave me one. I followed it and it became clearer, I could run this as bandit20 so it was possible for me to check the password and not get a permission denied.
 
 ![image](https://github.com/user-attachments/assets/8dff0a7d-6f66-496d-8310-1e26fe7e2f46)
 
@@ -287,6 +287,21 @@ I did just that and it gave me this
 # LEVEL 20
 
 username: bandit20           password:  0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+Reading the level goal, I realized I will be needing netcat to listen and then paste password somehow. I proceeded to opening another tab. I will be listening on one of them and executing the setuid file on the other.
+
+![image](https://github.com/user-attachments/assets/36d121a8-3a0a-4b72-8530-a943acdd9d96)
+
+After multiple trials, it gave me the password for the next level.
+
+![image](https://github.com/user-attachments/assets/49e2e4ed-cbf3-44a0-a286-dd7be962b7fe)
+
+# LEVEL 21
+
+username: bandit21            password: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+Each time we keep trying it login, it sends us back and says ```System is going down. Unprivileged users are not permitted to log in anymore. For technical details, see pam_nologin(8).```
+
 
 
 
