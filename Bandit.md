@@ -300,15 +300,27 @@ After multiple trials, it gave me the password for the next level.
 
 username: bandit21            password: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
-Each time we keep trying it login, it sends us back and says ```System is going down. Unprivileged users are not permitted to log in anymore. For technical details, see pam_nologin(8).```
+After successfully loggging in, we follow the goal that was given to check for cronjobs. We will be checking the ```/etc/cron.d``` to see the program that is running immediately.
 
-We did something like this in a level before so we will be executing commands from ssh. 
+![image](https://github.com/user-attachments/assets/b6135cf2-74ea-47ab-beb5-9df93f874b94)
 
-![image](https://github.com/user-attachments/assets/bab15e53-a07a-41bd-8be9-a9aeaa6ce560)
+As we can see, we have a file called cronjob_bandit22, we will try to see the content of the file for any hints.
 
-We will be doing the same here only that we will be using it to check for running processes. First we will use the ls command to check if it allows it and then we navigate to where we can see the file that runs immediately we try to login.
+![image](https://github.com/user-attachments/assets/eab7a648-e45e-468e-ba21-ef22c6f07b1f)
 
-After successfully loggging in, we follow the goal that was given to check for cronjobs.
+We have a bash file running /usr/bin. We will navigate into there and view the conent of the bash file. 
+
+![image](https://github.com/user-attachments/assets/d9bddc59-a02c-4258-89b3-3bbe5e7d699c)
+
+From the bash file, we see that everyone has priviledge to read /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv and the password for the next level is written there. So we will just view the content of this file and hope to see our next password there.
+
+![image](https://github.com/user-attachments/assets/af20cad2-1460-4702-9a5a-db223fcd09b5)
+
+# LEVEL 22             
+
+username: bandit 22            password: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+
 
 
 
