@@ -320,6 +320,23 @@ From the bash file, we see that everyone has priviledge to read /tmp/t7O6lds9S0R
 
 username: bandit 22            password: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
+For this level, we were also told that we have processes running on the same path as the previous level. A script is also running and it will be our hint for the next password. Following the same process as the previous level, we found our script but this time the content is a bit different. 
+
+![image](https://github.com/user-attachments/assets/84e54938-95b5-4bf4-805e-e892fb3f2959)
+
+The code here is looking self explanatory so we will just follow and use logic as the spirit leads....
+
+![image](https://github.com/user-attachments/assets/f32f591c-e0a8-486d-afbe-6f6d3045e573)
+
+And we got the password for the next level.
+
+# LEVEL 23 
+
+username: bandit23             password: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
+We have 
+
+
 
 
 
