@@ -308,7 +308,7 @@ We did something like this in a level before so we will be executing commands fr
 
 We will be doing the same here only that we will be using it to check for running processes. First we will use the ls command to check if it allows it and then we navigate to where we can see the file that runs immediately we try to login.
 
-
+After successfully loggging in, we follow the goal that was given to check for cronjobs.
 
 
 
