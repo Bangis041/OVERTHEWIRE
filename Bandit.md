@@ -338,6 +338,10 @@ We were givn a task related to cron job and the same process for the last two le
 
 After checking this, we see that the bash file here is quite differnet from others we have been seeing and this is a bit confusing and it even contained a for loop. 
 
+![image](https://github.com/user-attachments/assets/0be1580b-2fab-4bba-b22b-d1352fc867f3)
+
+
+
 
 
 
