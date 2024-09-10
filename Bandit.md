@@ -334,8 +334,7 @@ And we got the password for the next level.
 
 username: bandit23             password: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 
-We have 
-
+We were givn a task related to cron job and the same process for the last two levels would be followed again. 
 
 
 
