@@ -336,6 +336,8 @@ username: bandit23             password: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 
 We were givn a task related to cron job and the same process for the last two levels would be followed again. 
 
+After checking this, we see that the bash file here is quite differnet from others we have been seeing and this is a bit confusing and it even contained a for loop. 
+
 
 
 
