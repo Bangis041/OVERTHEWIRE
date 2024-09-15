@@ -30,7 +30,7 @@ username: bandit2    password:  MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ![image](https://github.com/user-attachments/assets/69d6bdcf-6d6e-4d19-bd7b-64855f2a36fe)
 
-We use the tab key for autocomplete coz of the spaces in the file name
+We use the tab key for autocomplete because of the spaces in the file name.
 
 # LEVEL 3
 
@@ -341,7 +341,7 @@ After checking this, we see that the bash file here is quite differnet from othe
 ![image](https://github.com/user-attachments/assets/0be1580b-2fab-4bba-b22b-d1352fc867f3)
 
 
-jdjdj
+
 
 
 
