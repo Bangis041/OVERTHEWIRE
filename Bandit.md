@@ -6,7 +6,11 @@ PS: As i solve the challenges, I add.
 
 For this level, we login with the credentials given.
 
-username: bandit0    password: bandit0  host: bandit.labs.overthewire.org  port: 2220
+username: bandit0   
+
+password: bandit0 
+
+host: bandit.labs.overthewire.org  port: 2220
 
 ![image](https://github.com/user-attachments/assets/7123ddaa-cde1-4035-81a9-d3004c44160f)
 
@@ -18,7 +22,9 @@ We use the command ```ls``` to view files and we found a readme file. Viewing it
 
 Credentials...
 
-Username:bandit1  password:ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+Username:bandit1  
+
+password:ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 After successfully logging in we saw a '-' file and we are not able to cat it. After little reasearch we found out that to cat a dash file you need to add './'
 
@@ -26,7 +32,9 @@ After successfully logging in we saw a '-' file and we are not able to cat it. A
 
 # LEVEL 2
 
-username: bandit2    password:  MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+username: bandit2   
+
+password:  MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 ![image](https://github.com/user-attachments/assets/69d6bdcf-6d6e-4d19-bd7b-64855f2a36fe)
 
@@ -34,7 +42,9 @@ We use the tab key for autocomplete because of the spaces in the file name.
 
 # LEVEL 3
 
-username: bandit3    password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+username: bandit3    
+
+password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 listing files in our current directory
 
@@ -50,7 +60,9 @@ viewing the file
 
 # LEVEL 4
 
-username: bandit4     password:  2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+username: bandit4    
+
+password:  2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 listing files in our current working directory, we found a dir, inhere. We navigated into it and found a number of files. 
 
@@ -70,7 +82,9 @@ To view the file we use normal ```cat``` and then we get the password for the ne
 
 # LEVEL 5
 
-username: bandit5     password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+username: bandit5    
+
+password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 After we successfully logged in, we navigated to inhere directory and saw many other directories. To save time and stregnth we use the ```find``` command.
 
@@ -82,7 +96,9 @@ Using the ```find``` command with the parameters given already, the search becam
 
 # LEVEL 6
 
-username: bandit6   password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+username: bandit6  
+
+password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 After we logged in, we tried to list files and we could not find anything not even hidden files. We read the instructions again and they said it was somewhere on the server so we just went ahead to use the ```find``` command.
 
@@ -94,7 +110,9 @@ We narrowed our search with that ```2>/dev/null``` thing and we got a place wher
 
 # LEVEL 7
 
-username: bandit7    password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+username: bandit7   
+
+password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 We list the contents in our working directory and we see a .txt file, catting it will give one kain long novel so we just used ```grep``` to look for the word. Very easy for us to get the password.
 
@@ -102,7 +120,9 @@ We list the contents in our working directory and we see a .txt file, catting it
 
 # LEVEL 8
 
-username: bandit8     password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+username: bandit8    
+
+password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
 For this level, we were also told that the password is in a file called data.txt. But in this case, almost each line is repeated as shown below using sort command:
 
@@ -114,7 +134,9 @@ As you can see the end of the file are arranged. We will be piping the sort comm
 
 # LEVEL 9
 
-username: bandit9      password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+username: bandit9  
+
+password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
 We were given a file that is not an ASCII text. If we try to cat it, we get strings of data and we can't even grep. So we wil use strig command and then ```grep``` '========='
 
@@ -122,7 +144,9 @@ We were given a file that is not an ASCII text. If we try to cat it, we get stri
 
 # LEVEL 10
 
-username: bandit10    password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+username: bandit10  
+
+password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 
 After successfully loggin in, we found a data.txt which was an ascii text. As we catted it, we saw it was an encoded message in base64. We can either use an online tool or we use the ```base64``` command. 
 
@@ -132,7 +156,9 @@ SYNTAX: ```base64 -d "name of file"```. The -d flag is to decode
 
 # LEVEL 11
 
-username: bandit11    password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+username: bandit11   
+
+password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 
 For this, we were also given a file that contained set of characters we can't pronounce. We realize it is also a cipher text and it was rotated 13 times. We can either do this using ```tr``` command or we use an online tool. I would have preferred not to use terminal but as per this game is supposed to help make us better and more familiar with linux commands, I won't be using the online tool. We can as well do it manually...that one will stress you small sha, just move each character 13 times. 
 
@@ -146,7 +172,9 @@ And boom!, we have our password.
 
 # LEVEL 12
 
-username: bandit12 password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+username: bandit12 
+
+password: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 
 We were given an instruction to follow here first,and we were also told the file we are dealing with is a hexdump data which was repeatedly compressed.
 
@@ -180,7 +208,9 @@ After several decompression and reversion we were able to get a human readable f
 
 # LEVEL 13 and 14
 
-username: bandit13     password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn 
+username: bandit13    
+
+password: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn 
 
 The instruction here stated that the password can only be read by user14. We need to find a way to login as bandit 14. I checked for files in my directory and found a ssh key there. It can be used in place of a password, what you just need is the username
 
@@ -202,7 +232,9 @@ After changing it, we successfully logged in, now we need to navigate to the dir
 
 # LEVEL 14    
 
-username: bandit14        password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+username: bandit14      
+
+password: MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 
 For this level, we will be able to get the password to the next level by submitting the password we retrieved in the last level to port 30000 on localhost. We can either use local host or use 127.0.0.1 for this, both works. 
 
@@ -212,7 +244,9 @@ As you can see, both ways gave same password. We meauve
 
 # LEVEL 15       
 
-username: bandit15              password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+username: bandit15         
+
+password: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 
 For this level, we will also be submitting the old password to get the password for the next level, this time they gave a different thing.
 
@@ -222,7 +256,9 @@ I just connected the localhost server woth the openssl clinet and pasted the pas
 
 # LEVEL 16 
 
-usernmae: bandit16              password: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+usernmae: bandit16          
+
+password: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 
 For this level, we need to know which and which ports are opened as they gave us a range so we will be using the ```nmap``` tool. It is known as network mappper, it can do alot of things such as network scanning, OS detection, host discovery etc. The syntax for this is ```nmap <ip address>```. Other flags can be attached depending on what you want to do with the scan. You can use the man page to read more.
 
@@ -240,7 +276,9 @@ After doing that, we paste the password for this level and then we get a RSA Key
 
 # LEVEL 17 
 
-username: bandit17          password: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
+username: bandit17       
+
+password: EReVavePLFHtFlFsjn3hyzMlvSuSAcRD
 
 After successfully logging in, we wil find the password for this level wehre passwords are being stored. 
 
@@ -256,7 +294,9 @@ And boom! we found our password for the next level
 
 # LEVEL 18
 
-username: bandit18     password: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+username: bandit18    
+
+password: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
 
 Unfortunatly for us someone modified the .bashrc file to keep logging us out.
 
@@ -270,7 +310,9 @@ We now have our password for the next level.
 
 # LEVEL 19
 
-username: bandit19        password: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+username: bandit19      
+
+password: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
 
 After successfully logging in, i tried to check the password in the ususal place but it says permission denied. So i followed the instruction given and read a little about setuid. First we need to check which user can run the file that was given, for that we use ```ls -l``` 
 
@@ -286,7 +328,9 @@ I did just that and it gave me this
 
 # LEVEL 20
 
-username: bandit20           password:  0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+username: bandit20         
+
+password:  0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
 
 Reading the level goal, I realized I will be needing netcat to listen and then paste password somehow. I proceeded to opening another tab. I will be listening on one of them and executing the setuid file on the other.
 
@@ -298,7 +342,9 @@ After multiple trials, it gave me the password for the next level.
 
 # LEVEL 21
 
-username: bandit21            password: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+username: bandit21           
+
+password: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 After successfully loggging in, we follow the goal that was given to check for cronjobs. We will be checking the ```/etc/cron.d``` to see the program that is running immediately.
 
@@ -318,7 +364,9 @@ From the bash file, we see that everyone has priviledge to read /tmp/t7O6lds9S0R
 
 # LEVEL 22             
 
-username: bandit 22            password: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+username: bandit 22            
+
+password: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
 
 For this level, we were also told that we have processes running on the same path as the previous level. A script is also running and it will be our hint for the next password. Following the same process as the previous level, we found our script but this time the content is a bit different. 
 
@@ -332,7 +380,9 @@ And we got the password for the next level.
 
 # LEVEL 23 
 
-username: bandit23             password: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+username: bandit23            
+
+password: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 
 We were givn a task related to cron job and the same process for the last two levels would be followed again. 
 
@@ -340,7 +390,26 @@ After checking this, we see that the bash file here is quite differnet from othe
 
 ![image](https://github.com/user-attachments/assets/0be1580b-2fab-4bba-b22b-d1352fc867f3)
 
+For this level, we will need to create a script that can be executed by user bandit 24 and what the script will do is to print the password to a directory we can read from. 
 
+First we will create a new directory in the /tmp directory where we will be writing our script. 
+
+![image](https://github.com/user-attachments/assets/d7768b4e-21a0-45a2-b4d9-379550823dfd)
+
+```
+#!/bin/bash
+
+cat /etc/bandit_pass/bandit24 > /tmp/bangis/bangis.txt
+```
+After that, we grant execution permissions to the script and then we copy it to the specified directory from the cronjob's script i.e /var/soppl/bandit24/foo and then we wait for about a minute to get bangis.txt where our password will be stored.
+
+![image](https://github.com/user-attachments/assets/349dd90f-7c76-4bd2-8ad4-ed4e9d3dea99)
+
+# LEVEL 24
+
+username: bandit24
+
+password: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 
 
 
