@@ -411,10 +411,30 @@ username: bandit24
 
 password: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
 
+When I saw the task for this level, first thing that came to mind was to find a way to use crunch to get all combination and use awk to input the password behind every combination. It would have worked except there was not crunch installed and we were not able to use wget. I decided to use a bash script to get the job done.
+
+```
+#!/bin/bash
+prev_pass="gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8"
+for i in $(seq -w 0 9999); do
+    result="${prev_pass} ${i}"
+    echo "$result"
+done
+```
+THe above bash script will print out the password and the combination starting with 0000 until 9999. We then run a listener together with it.
+
+![image](https://github.com/user-attachments/assets/d18a6730-a9e3-4d51-a557-76c75ce852f1)
+
+After getting alot of incorrect password, we eventually got our password. 
+
+![image](https://github.com/user-attachments/assets/98a74683-1c99-4b11-af32-0f5092587e6a)
 
 
+# LEVEL 25
 
+username: bandit25
 
+password: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 
 
 
