@@ -430,12 +430,28 @@ After getting alot of incorrect password, we eventually got our password.
 ![image](https://github.com/user-attachments/assets/98a74683-1c99-4b11-af32-0f5092587e6a)
 
 
-# LEVEL 25
+# LEVEL 25 AND 26
 
-username: bandit25
+username: bandit25upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
 
 password: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 
+We won't be having any need to get the password for this level, this is beacause we get an id_rsa file to login to the next level. After successfully logging in, list the files in the current directory and you see the file, login to the next level which is bandit27 directly from the local machine.
+
+![image](https://github.com/user-attachments/assets/ca010253-06b5-4ec7-84b6-d89800914a56)
+
+We notic we get an output different from the others and we also get logged out, from the level goal we know that this level might not be operating on the normal shell i.e /bin/bash or /sh. We check the /etc/passwd file to see what shell it runs on.
+
+![image](https://github.com/user-attachments/assets/85315df4-1e24-49b0-b14f-112662c5ae16)
+
+As we can see it is runs on a differnet shell, good for us we can read it as see what it does
 
 
+
+
+# LEVEL 27
+
+username: bandit27
+
+password: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
 
