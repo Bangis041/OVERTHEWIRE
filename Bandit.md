@@ -455,3 +455,19 @@ username: bandit27
 
 password: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
 
+
+
+
+
+
+
+# LEVEL 28
+
+username: bandit28
+
+password: Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
+
+omo
+
+
+
