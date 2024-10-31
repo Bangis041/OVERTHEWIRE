@@ -481,4 +481,18 @@ password: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
 
 
 
+# LEVEL 30
+
+username: bandit30
+
+password: qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
+
+
+
+# LEVEL 31
+
+username: bandit 31
+
+password: fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+
 
