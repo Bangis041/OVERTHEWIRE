@@ -432,7 +432,7 @@ After getting alot of incorrect password, we eventually got our password.
 
 # LEVEL 25 AND 26
 
-username: bandit25upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+username: bandit25
 
 password: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
 
@@ -444,10 +444,13 @@ We notic we get an output different from the others and we also get logged out, 
 
 ![image](https://github.com/user-attachments/assets/85315df4-1e24-49b0-b14f-112662c5ae16)
 
-As we can see it is runs on a differnet shell, good for us we can read it as see what it does
+As we can see it is runs on a differnet shell, good for us we can read it as see what it does. From the shell file, it shows that we exits the shell onece logged in and there is a text file, we can get a shell from that text file. When you we log in the text file will cat itself using ```more```. What we need to do is to reduce the terminal size so the entire text won't show and from there we can get a bash shell
 
+![image](https://github.com/user-attachments/assets/9b774946-c58a-48d6-9f16-d0fc288ea778)
 
+Thaat's the size of my terminal, small and messy hehe. We get a more shell where we can use 'v' to type commands. From here we set our shell to bash using ```:set shell=/bin/bash``` and we spawn our shell using ```:shell```. Boom we are logged into bandit26. When we list the files in our direcrtory, we see a setuid executable file, this can be used to read the password of the next user. 
 
+![image](https://github.com/user-attachments/assets/9b8d67df-390f-4c90-b629-4033823d10f4)
 
 # LEVEL 27
 
@@ -455,11 +458,13 @@ username: bandit27
 
 password: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
 
+For this level, we will be dealing with the git command as it is the only command provided for us. We were given a repo to clone and we will do just that using the git command. First we need to create a new dir in the /tmp folder and clone it to that new dir using the password for the level.
 
+![image](https://github.com/user-attachments/assets/e987b2bd-6b7c-4a7d-b3c0-a45808156660)
 
+We move into the new dir and see the files. We find a file there and when we view the content of the file, we find our next password there.
 
-
-
+![image](https://github.com/user-attachments/assets/cf2681c3-4398-439c-a608-fd67041edf97)
 
 # LEVEL 28
 
@@ -467,8 +472,11 @@ username: bandit28
 
 password: Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
 
-omo
+For this level, we will be cloning the repo for this level just like we did or the past level. We have a README.md file, when we try to view it, what we get is xxxxxxxx as the password. Obviously that can't be the password. Knowing that .md files can be changes, we look for a way to check for past changes using ```git log``` 
 
+![image](https://github.com/user-attachments/assets/bc7e5de1-f4ab-47a9-9e42-2c86d9596ea7)
+
+Using ```git checkout```, we can restore the initial state of the file using the strings of characters which is out commit id. There are three 
 
 
 
