@@ -476,8 +476,7 @@ For this level, we will be cloning the repo for this level just like we did or t
 
 ![image](https://github.com/user-attachments/assets/bc7e5de1-f4ab-47a9-9e42-2c86d9596ea7)
 
-Using ```git checkout```, we can restore the initial state of the file using the strings of characters which is out commit id. There are three 
-
+Using ```git checkout```, we can restore the initial state of the file using the strings of characters which is out commit id. There are three ids there, we use the second one to get the new password.
 
 
 
