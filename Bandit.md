@@ -476,8 +476,9 @@ For this level, we will be cloning the repo for this level just like we did or t
 
 ![image](https://github.com/user-attachments/assets/bc7e5de1-f4ab-47a9-9e42-2c86d9596ea7)
 
-Using ```git checkout```, we can restore the initial state of the file using the strings of characters which is out commit id. There are three ids there, we use the second one to get the new password.
+Using ```git checkout id```, we can restore the in itial state of the file using the strings of characters which is out commit id. There are three ids there, we use the second one to get the new password. 
 
+![image](https://github.com/user-attachments/assets/633ada6c-070d-4915-946e-ba67cd287de8)
 
 
 # LEVEL 29
@@ -485,6 +486,11 @@ Using ```git checkout```, we can restore the initial state of the file using the
 username: bandit29
 
 password: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
+
+For thie level, we will still be dealing with git. After successfully logging in, we make a new direcroty in the /tmp dir and clone the repo there just like the other levels using the level password. After cloning we nothing something in the README.md file.
+
+![image](https://github.com/user-attachments/assets/4c810a1c-61f8-4b7c-9462-5fa7a9d3e72f)
+
 
 
 
