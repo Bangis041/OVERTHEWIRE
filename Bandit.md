@@ -491,6 +491,17 @@ For thie level, we will still be dealing with git. After successfully logging in
 
 ![image](https://github.com/user-attachments/assets/4c810a1c-61f8-4b7c-9462-5fa7a9d3e72f)
 
+Seeing a "no password in production" might give us a hint that there are other productions so we decided to check all branches and then check the logs in those branches.
+
+![image](https://github.com/user-attachments/assets/4c1805d1-8860-44f9-8ad2-63b7cb1416c4)
+
+We are in the mater branch presently, so we will move to check the dev branch to see what it has in store for us using the ```git checkout <brank-name>``` and then we check the log again.
+
+![image](https://github.com/user-attachments/assets/c2820096-b7c9-4c09-a907-0891a44d5265)
+
+Upon checking the first log, we got what we have been searching for.
+
+![image](https://github.com/user-attachments/assets/fa315636-f834-44f5-91fe-212dfe5826b8)
 
 
 
@@ -500,6 +511,14 @@ username: bandit30
 
 password: qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
 
+After logging in, we do the norms which is cloning the repo. This time, the README.md file we found there was very different from the others. This one said something that got me scared. It says it's just am empty file and it laghed, more like we are wasting time. I decided to just do the normal things i did in the last two levels but nothing so I went back moving around and checking for hidden stuffs. We found a hidden directory and decided to enumerate it. To my greatest suprise, I found a branch with a log and it was names secret. Immediately, I knew I was getting somewhere good.
+
+![image](https://github.com/user-attachments/assets/9ea674cd-a26c-4edc-b9a0-41023cd690fd)
+
+I just jejely used my git show command to check what it has for us and...Ladies and Gentlemen, we have our next password.
+
+![image](https://github.com/user-attachments/assets/68b33e46-ec17-4aa0-a8c1-6f5e56676596)
+
 
 
 # LEVEL 31
@@ -507,6 +526,10 @@ password: qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
 username: bandit31
 
 password: fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+
+Still on git, this time our README.md file asked us to push a file with instructions.
+
+![image](https://github.com/user-attachments/assets/de6aa556-05c6-43f6-885b-0030c3e0b1dc)
 
 
 
