@@ -531,13 +531,30 @@ Still on git, this time our README.md file asked us to push a file with instruct
 
 ![image](https://github.com/user-attachments/assets/de6aa556-05c6-43f6-885b-0030c3e0b1dc)
 
+First, we create the file we were asked to with the necessary inputs and then we tried to add the file we just created by using ```git add```. Little did I know it was not that easy,but they give us some hints.
 
+![image](https://github.com/user-attachments/assets/2bb0d79f-7b97-4920-9623-2e2ecb249fc5)
 
+There are two ways to go about this, either to delete the gitignore file or use the flag . The easier one for me is to just use the flag that was given.
+
+We did that and it was a success, so the next thing is to commit our changes, and we got a response to use git push. 
+
+![image](https://github.com/user-attachments/assets/2e586a5f-f17f-44a4-8222-c58f8804abc1)
+
+Ladies and gentlemen...our next password.
 
 
 # LEVEL 32
 
 username: bandit32
 
-password: 
+password: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+
+
+# LEVEL 33
+
+username: bandit33
+
+password: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+
 
